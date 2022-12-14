@@ -1,0 +1,76 @@
+body {
+  width: 100%;
+}
+
+.header {
+  width: 99%;
+}
+@media screen and (min-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.header__img {
+  display: block;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 1024px) {
+  .header__img {
+    width: 15%;
+  }
+}
+.header__title {
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .header__title {
+    margin: auto;
+  }
+}
+
+.wrapperPrincipalTimer, .wrapperHalfTimeTimer, .wrapperTimeoutTimer {
+  width: 99%;
+  text-align: center;
+}
+.wrapperPrincipalTimer__title, .wrapperHalfTimeTimer__title, .wrapperTimeoutTimer__title {
+  font-style: italic;
+}
+.wrapperPrincipalTimer__timer, .wrapperHalfTimeTimer__timer, .wrapperTimeoutTimer__timer {
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  border: 2px solid #000;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px #000;
+}
+.wrapperPrincipalTimer__buttons, .wrapperHalfTimeTimer__buttons, .wrapperTimeoutTimer__buttons {
+  width: 99%;
+}
+.wrapperPrincipalTimer__buttons__reset, .wrapperPrincipalTimer__buttons__stop, .wrapperPrincipalTimer__buttons__start, .wrapperHalfTimeTimer__buttons__reset, .wrapperHalfTimeTimer__buttons__stop, .wrapperHalfTimeTimer__buttons__start, .wrapperTimeoutTimer__buttons__reset, .wrapperTimeoutTimer__buttons__stop, .wrapperTimeoutTimer__buttons__start {
+  width: 30%;
+  height: 50px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px #000;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.wrapperPrincipalTimer__buttons__start, .wrapperHalfTimeTimer__buttons__start, .wrapperTimeoutTimer__buttons__start {
+  background-color: #33D4FF;
+  color: #000;
+}
+.wrapperPrincipalTimer__buttons__stop, .wrapperHalfTimeTimer__buttons__stop, .wrapperTimeoutTimer__buttons__stop {
+  background-color: #FFB833;
+  color: #000;
+}
+.wrapperPrincipalTimer__buttons__reset, .wrapperHalfTimeTimer__buttons__reset, .wrapperTimeoutTimer__buttons__reset {
+  background-color: #FF3333;
+  color: #FFF;
+}
+
+/*# sourceMappingURL=style.css.map */

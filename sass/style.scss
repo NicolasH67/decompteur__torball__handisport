@@ -1,0 +1,68 @@
+body{
+    width: 100%;
+}
+
+.header{
+    width: 99%;
+    @media screen and (min-width: 768px){
+        display: flex;
+        flex-direction: row;
+    }
+    &__img{
+        display: block;
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        @media screen and (min-width: 1024px){
+            width: 15%;
+        }
+    }
+    &__title{
+        text-align: center;
+        @media screen and (min-width: 768px){
+            margin: auto;
+        }
+    }
+}
+
+.wrapperPrincipalTimer, .wrapperHalfTimeTimer, .wrapperTimeoutTimer{
+    width: 99%;
+    text-align: center;
+    &__title{
+        font-style: italic;
+    }
+    &__timer{
+        width: 35%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        font-size: 2rem;
+        font-weight: bold;
+        border: 2px solid #000;
+        border-radius: 15px;
+        box-shadow: 2px 2px 5px #000;
+    }
+    &__buttons{
+        width: 99%;
+        &__reset, &__stop, &__start{
+            width: 30%;
+            height: 50px;
+            border-radius: 15px;
+            box-shadow: 2px 2px 5px #000;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+        &__start{
+            background-color: #33D4FF;
+            color: #000;
+        }
+        &__stop{
+            background-color: #FFB833;
+            color: #000;
+        }
+        &__reset{
+            background-color: #FF3333;
+            color: #FFF;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>
+        Chrono Torball
+    </title>
+</head>
+<body>
+    <div class="header">
+        <img src="./img/logoFFH.jpeg" alt="logo Association Torball 67" class="header__img">
+        <h1 class="header__title">Chronomètre Torball</h1>
+    </div>
+    <div class="wrapperPrincipalTimer" id="wrapperPrincipalTimer">
+        <h2 class="wrapperPrincipalTimer__title">Temps de jeu</h2>
+        <div class="wrapperPrincipalTimer__timer" id="chronoPrincipalTimer">05:00</div>
+        <div class="wrapperPrincipalTimer__buttons" id="buttonsPrincipalTimer">
+            <button id="resetPrincipalTimer" class="wrapperPrincipalTimer__buttons__reset">Reset</button>
+            <button id="stopPrincipalTimer" class="wrapperPrincipalTimer__buttons__stop">Arrêter</button>
+            <button id="startPrincipalTimer" class="wrapperPrincipalTimer__buttons__start">Start</button>
+        </div>
+    </div>
+    <div class="wrapperHalfTimeTimer" id="wrapperHalfTimeTimer">
+        <h2 class="wrapperHalfTimeTimer__title">Mi-temps</h2>
+        <div class="wrapperHalfTimeTimer__timer" id="chronoHalfTimeTimer">02:00</div>
+        <div class="wrapperHalfTimeTimer__buttons" id="buttonsHalfTimeTimer">
+            <button id="resetHalfTimeTimer" class="wrapperHalfTimeTimer__buttons__reset">Reset</button>
+            <button id="stopHalfTimeTimer" class="wrapperHalfTimeTimer__buttons__stop">Arrêter</button>
+            <button id="startHalfTimeTimer" class="wrapperHalfTimeTimer__buttons__start">Start</button>
+        </div>
+    </div>
+    <div class="wrapperTimeoutTimer" id="wrapperTimeoutTimer">
+        <h2 class="wrapperTimeoutTimer__title">Temps mort</h2>
+        <div class="wrapperTimeoutTimer__timer" id="chronoTimeoutTimer">00:30</div>
+        <div class="wrapperTimeoutTimer__buttons" id="buttonsTimeoutTimer">
+            <button id="resetTimeoutTimer" class="wrapperTimeoutTimer__buttons__reset">Reset</button>
+            <button id="stopTimeoutTimer" class="wrapperTimeoutTimer__buttons__stop">Arrêter</button>
+            <button id="startTimeoutTimer" class="wrapperTimeoutTimer__buttons__start">Start</button>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
